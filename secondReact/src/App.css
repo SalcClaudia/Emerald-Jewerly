@@ -134,3 +134,24 @@ padding-right: 20px;
 .cart-title{
   margin: 50px;
 }
+
+.search-results {
+  max-height: 250px;  
+  overflow-y: auto;  
+  background-color: white;
+  z-index: 1050;  
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.search-results btn {
+  cursor: pointer;
+  padding: 10px;       
+  text-align: left;    
+  width: 100%; 
+}
+
+.search-results btn:hover {
+  background-color: #f8f9fa;
+}

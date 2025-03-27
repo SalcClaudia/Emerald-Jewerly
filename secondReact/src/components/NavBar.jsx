@@ -1,5 +1,6 @@
 import CartWidget from './CartWidget';
 import { Link } from "react-router-dom"
+import SearchBar from './Searchbar';
 
 const NavBar = () => {
   return (
@@ -27,10 +28,7 @@ const NavBar = () => {
             </li>
           </ul>
             <div className="custom-width">
-              <form className="d-flex" role="search">
-                <input className="form-control me-2 border border-black" type="search" placeholder="Encuentra lo que necesitas" aria-label="Search"></input>
-                  <button className="btn btn-dark" type="submit">Buscar</button>
-              </form>
+            <SearchBar/>
             </div>
         </div>
         <CartWidget />
